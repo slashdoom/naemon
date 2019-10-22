@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/naemon"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  editURL = "https://github.com/slashdoom/naemon/edit/master/content/"
   description = "Naemon - Monitoring Suite"
   author = "Naemon"
   showVisitedLinks = true
