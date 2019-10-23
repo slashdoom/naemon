@@ -6,16 +6,21 @@ title = "Naemon - Monitoring Suite"
 theme = "hugo-theme-learn"
 themesdir = "./themes"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir = true
+enableInlineShortcodes = true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  editURL = "https://github.com/slashdoom/naemon/edit/master/content/"
   description = "Naemon - Monitoring Suite"
   author = "Naemon"
-  showVisitedLinks = true
+  showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = false
   themeVariant = "green"
+  # site specific variables
+  release_version = "1.1.0"
+  release_date = "02 Sep 2019"
+  next_release = "Feb 2020"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
